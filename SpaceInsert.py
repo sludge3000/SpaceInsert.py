@@ -1,11 +1,10 @@
-# SpaceInsert.py
 # Created by Luke Savage
 #
 # Script takes hex stream from 'data.txt' and inserts a space every two
-# characters to make the file readable in Wiresharkself.
+# characters to make the file readable importable for Wireshark as a hex dump.
 #
 # Useage:
-# Please hex stream in data.txt
+# Place hex stream in data.txt with no leading or trailing 0s
 # Run SpaceInsert.py in the same directory as data.txt
 
 while True:
